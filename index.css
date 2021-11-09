@@ -1,0 +1,193 @@
+body {
+	background-color: dodgerblue;
+	font-size: 1rem;
+	color: #fff;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 00.5rem 1rem;
+	margin: 0;
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+	align-items: center;
+}
+
+a {
+	color: #fff;
+	font-weight: bold;
+}
+
+#work {
+	border: 1px solid #fff;
+	border-radius: 5px;
+	margin: 15px 0;
+	width: 80%;
+	height: auto;
+	padding: 20px 50px;
+	min-height: 250px;
+	justify-content: center;
+}
+
+
+p {
+	text-align: center;
+}
+
+.qq {
+	grid-area: q;
+	display: grid;
+	grid-template-columns: 1fr;
+}
+
+.aa {
+	grid-area: a;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.tt {
+	grid-area: t;
+	display: grid;
+}
+
+.at {
+	grid-area: at;
+	display: grid;
+}
+
+.nn {
+	display: grid;
+}
+
+.ttt {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.ss {
+	grid-area: s;
+	width: 100%;
+	display: grid;
+}
+
+.quoteText {
+	margin: 0.5rem;
+	outline: none;
+	resize: none;
+	padding: 1rem;
+	font-size: 1rem;
+	border: 0;
+	color: rgb(83, 83, 83);
+	border-radius: 10px;
+	max-width: 100%;
+	height: 100px;
+}
+
+#app input,
+#app select,
+#app select option {
+	margin: 0.5rem;
+	border-radius: 10px;
+	max-width: 100%;
+	color: rgb(83, 83, 83);
+	outline: none;
+	font-size: 1rem;
+	border: 1px solid #ebe2e2;
+	padding: 1rem;
+}
+
+
+.line {
+	width: 60%;
+	border-radius: 5px;
+	align-self: center;
+	border-bottom: 1px solid #fff;
+	margin: 10px 0;
+}
+
+.action {
+	background-color: #446b91 !important;
+}
+
+.colored {
+	font-weight: bold;
+	outline: none;
+	border: 1px solid #fff;
+	border-radius: 5px;
+	padding: 2.5px 10px;
+}
+
+.topBar {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.topBar > * {
+	margin: 0 5px;
+}
+
+button {
+	cursor: pointer;
+	margin: 0.5rem;
+}
+
+.item {
+	background-color: #fff;
+	padding: 10px;
+	height: 100px;
+	display: flex;
+	overflow: hidden;
+	justify-content: center;
+	align-items: center;
+	border-radius: 5px;
+}
+
+button {
+	padding: 1rem;
+	color: #fff;
+	border-radius: 10px;
+	border: 1px solid #fff;
+	background-color: Transparent;
+	outline: none;
+	font-size: 1rem;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: rgb(13, 115, 218);
+}
+
+option[value=""][disabled] {
+	display: none;
+}
+
+.tooltip {
+	bottom: 100px;
+	position: fixed;
+	min-width: 100px;
+	height: 25px;
+	padding: 5px 20px;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	display: none;
+	background-color: #020202;
+	color: white;
+	border-radius: 10px;
+	opacity: 0;
+	margin: 0 auto;
+	transition: opacity 5s;
+}
+
+.normalLink {
+	color: dodgerblue;
+}
+
+
+@media screen and (max-width: 1200px) {
+.aa {
+	grid-template-columns: 1fr;
+}
+}
+

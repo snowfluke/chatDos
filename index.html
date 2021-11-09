@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<meta
+			name="description"
+			content="Tata cara chat dosen yang baik dan benar"
+		/>
+		<meta property="og:site_name" content="Jerene" />
+		<meta
+			property="og:title"
+			content="Tata cara chat dosen yang baik dan benar"
+		/>
+		<meta property="og:url" content="/" />
+		<meta
+			name="twitter:title"
+			content="Tata cara chat dosen yang baik dan benar"
+		/>
+		<meta name="twitter:url" content="/" />
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:label1" content="Written by" />
+		<meta name="theme-color" content="#ffffff" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+		<meta name="msapplication-TileColor" content="#000000" />
+		<title>ChatDos</title>
+		<link rel="stylesheet" href="index.css" />
+		<link rel="icon" href="https://snowfluke.github.io/awalLogo.webp" />
+	</head>
+	<body>
+		<header>
+			<span style="font-size: xx-large; font-weight: bold">ChatDos </span>
+			Generator chat dosen yang baik dan benar
+		</header>
+		<span class="line"></span>
+		<div id="work">
+			<form id="app">
+				<div class="aa">
+					<input
+						class="inputBtn nama"
+						type="text"
+						name="nama"
+						placeholder="Namamu... Misal: John Doe"
+					/>
+					<input
+						class="inputBtn kelas"
+						type="text"
+						name="kelas"
+						placeholder="Kelas... Misal: TIA"
+					/>
+					<input
+						class="inputBtn semester"
+						type="number"
+						name="semester"
+						placeholder="Semester... Misal: 8"
+					/>
+				</div>
+				<div class="tt">
+					<div class="ttt">
+						<select class="salam" name="tag1">
+							<option value="" disabled selected>
+								Waktu
+							</option>
+							<option value="pagi" >
+								Pagi
+							</option>
+							<option value="siang">
+								Siang
+							</option>
+							<option value="sore">
+								Sore
+							</option>
+							<option value="malam">
+								Malam
+							</option>
+						</select>
+						<select class="sapa" name="tag2">
+							<option value="" disabled selected>
+								Sapaan
+							</option>
+							<option value="pak">
+								Pak
+							</option>
+							<option value="bu">
+								Bu
+							</option>
+						</select>
+						<select class="tipe" name="tag3">
+							<option value="" disabled selected>
+								Tipe
+							</option>
+							<option value="menanyakan">
+								Bertanya
+							</option>
+							<option value="memberitahukan">
+								Memberi tahu
+							</option>
+						</select>
+					</div>
+				</div>
+				<div class="nn">
+					<input
+						class="inputBtn nomer"
+						type="number"
+						name="nomer"
+						placeholder="No WA... Misal: 087736123321"
+					/>
+				</div>
+				<div class="qq">
+					<textarea
+						class="quoteText keperluan"
+						spellcheck="false"
+						name="keperluan"
+						placeholder="Keperluanmu... Misal: perkuliahan kalkulus hari ini di kelas SIA"
+					></textarea>
+				</div>
+				<div class="ss">
+					<button
+						type="button"
+						onclick="kirim()"
+						class="kirim"
+					>
+						Kirim
+					</button>
+					<button
+						type="button"
+						onclick="reset()"
+						class="reset"
+					>
+						Reset
+					</button>
+				</div>
+			</form>
+			<p>ChatDos v1.0.0</p>
+		</div>
+
+		<span class="line"></span>
+		<footer>
+			Made by <a href="https://snowfluke.github.io/">snowfluke</a> |
+			Source code
+			<a href="https://github.com/snowfluke/chatDos/">ChatDos"</a>
+		</footer>
+
+
+		<div class="tooltip">
+			<div class="tooltipContent"></div>
+		</div>
+		<script src="index.js"></script>
+	</body>
+</html>
