@@ -70,15 +70,8 @@ const reset = () => {
 
 const kirim = () => {
 	if(
-	$('.nama').value.length == 0 ||
-	$('.kelas').value.length == 0 ||
-	$('.semester').value.length == 0 ||
-	$('.salam').value.length == 0 ||
-	$('.sapa').value.length == 0 ||
-	$('.tipe').value.length == 0 ||
-	$('.nomer').value.length == 0 ||
-	$('.keperluan').value.length == 0
-	) return showTooltip('Masih ada input yang kosong')
+	$('.nomer').value.length == 0
+	) return showTooltip('Nomor WA wajib diisi')
 	
 	let msg = {
 		nama: textCase({ str: $('.nama').value, eachWord: true}),
