@@ -1,11 +1,6 @@
 const $ = (el) => document.querySelector(el);
 
-const generateText = ({ nama, kelas, semester, salam, sapa, tipe, keperluan }) => `Assalamu'alaikum wr. wb.
-
-Selamat ${salam}, ${sapa}.
-Mohon maaf mengganggu waktunya, saya ${nama} dari kelas ${kelas} semester ${semester}, ingin ${tipe} terkait ${keperluan}.
-
-Terima kasih banyak atas waktunya, ${sapa}.
+const generateText = ({ nama, kelas, semester, salam, sapa, tipe, keperluan }) => `Assalamu'alaikum wr. wb.%0ASelamat ${salam}, ${sapa}.%0A%0AMohon maaf mengganggu waktunya, saya ${nama} dari kelas ${kelas} semester ${semester}, ingin ${tipe} terkait ${keperluan}.%0A%0ATerima kasih banyak atas waktunya, ${sapa}.%0A
 Wassalamu'alaikum wr. wb.`
 
 const textCase = ({ str, eachWord = false }) =>
